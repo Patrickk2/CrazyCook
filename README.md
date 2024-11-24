@@ -1,5 +1,3 @@
-Voici la version mise à jour : 
-
 ```markdown
 # CrazyCook 🍳
 
