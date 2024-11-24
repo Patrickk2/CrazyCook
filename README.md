@@ -1,4 +1,4 @@
-*# CrazyCook 🍳
+# CrazyCook 🍳
 
 CrazyCook est une plateforme en ligne dédiée à la vente et à la gestion de recettes culinaires. Notre objectif est de connecter les amateurs de cuisine et les entrepreneurs culinaires avec des outils efficaces pour planifier, commander, et gérer leurs produits culinaires. 🥘
 
