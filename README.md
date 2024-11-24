@@ -36,4 +36,4 @@ npm start
 
 Contributions 🤝
 
-Pour contribuer, consultez le fichier CONTRIBUTI‍ON.md
+Pour contribuer, consultez le fichier CONTRIBUTI‍ON.md--
