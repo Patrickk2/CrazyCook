@@ -1,4 +1,3 @@
-```markdown
 # CrazyCook 🍳
 
 **CrazyCook** est un site de vente de cuisine. Ce projet collaboratif utilise React, Node.js et MongoDB.
