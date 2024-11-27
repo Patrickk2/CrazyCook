@@ -1,10 +1,10 @@
 # Changelog 📜
 
-## [1.0.0] - 2024-12-01
+## [0.0.1] - 2024-10-01
 ### Ajouté
 - Première version du site CrazyCook
 
-## [0.1.0] - 2024-10-01
+## [0.0.2] - 2024-11-27
 ### Ajouté
-- Structure de base du projet 🏗️
-- Page d'accueil 🏠
+- Correction de bug dans le css by @Patrrikcode2 in #13
+- Modification des styles by @Patrrikcode2 in #14
