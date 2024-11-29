@@ -16,7 +16,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: orange;
+    background-color: white;
     color: white;
     gap: 20px;
     margin: 0;
@@ -34,7 +34,7 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-color:#a88332;
     color: white;
     padding: 15px;
     gap: 20px; /* Espace entre hd1 et hd2 */
