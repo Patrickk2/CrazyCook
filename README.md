@@ -13,7 +13,7 @@ CrazyCook est un site de cuisine conçu pour rassembler les passionnés de gastr
 ---
 
 ## 🌟 Aperçu du projet  
-![Preview du site]( ![crazycookpic](https://github.com/user-attachments/assets/50bf209d-629f-49cc-9a2a-53d1c2b999b7)) 
+![Preview du site](https://github.com/user-attachments/assets/50bf209d-629f-49cc-9a2a-53d1c2b999b7) 
 
 *Une interface moderne et conviviale pour naviguer facilement entre les sections.*  
 
