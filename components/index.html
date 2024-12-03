@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saveurs & Délices</title>
-    <link rel="stylesheet" href="src\styles\main.css">
+    <title>CrazyCook</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <!-- Navigation -->
     <header>
-        <section id="hd">
+        <div class="hd">
             <div class="hd1">
-            <img src="#">
-            <input type="search">
+                <img src="#" alt="Logo du site">
+                <input type="search" placeholder="Rechercher...">
             </div>
-            <div class="hd2">
-                <nav>
+            <nav>
                 <ul>
                     <li><a href="#">Accueil</a></li>
                     <li><a href="#">Recettes</a></li>
@@ -26,42 +25,28 @@
                 </ul>
             </nav>
         </div>
-    </section>
     </header>
 
-    <!-- Section Héroïque -->
+    <!-- Section Hero -->
     <section class="hero">
-        <div class="hero-content">
-            <h2>Éveillez vos papilles avec nos recettes exclusives !</h2>
-            <p>Plongez dans l'univers de la cuisine maison avec des recettes adaptées à tous les goûts et niveaux.</p>
-            <div class="hero-buttons">
-                <a href="#" class="btn">Découvrir les recettes</a>
-                <a href="#" class="btn">Créer un compte</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Catégories populaires -->
-    <section class="categories">
-        <h2>Explorez nos inspirations culinaires</h2>
-        <div class="category-list">
-            <div class="category">Entrées</div>
-            <div class="category">Plats principaux</div>
-            <div class="category">Desserts</div>
-            <div class="category">Boissons</div>
+        <h2>Éveillez vos papilles avec nos recettes exclusives !</h2>
+        <p>Plongez dans l'univers de la cuisine maison avec des recettes adaptées à tous les goûts et niveaux.</p>
+        <div class="hero-buttons">
+            <button class="btn" onclick="window.location.href='#'">Découvrir les recettes</button>
+            <button class="btn" onclick="window.location.href='form.html'">Créer un compte</a></button>
         </div>
     </section>
 
     <!-- Recettes en vedette -->
     <section class="featured-recipes">
         <h2>Les coups de cœur du moment</h2>
-        <div class="recipes">
-            <div class="recipe">
+        <di class="recipes">
+            <div class="recipe" onclick="window.location.href='#'">
                 <img src="example1.jpg" alt="Recette 1">
                 <h3>Recette 1</h3>
                 <p>Parfait pour les soirées en famille.</p>
             </div>
-            <div class="recipe">
+            <div class="recipe" onclick="window.location.href='#'">
                 <img src="example2.jpg" alt="Recette 2">
                 <h3>Recette 2</h3>
                 <p>Une touche de gourmandise à chaque bouchée.</p>
