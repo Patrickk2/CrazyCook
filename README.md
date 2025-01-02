@@ -1,6 +1,6 @@
 # 🍳 CrazyCook  
 
-CrazyCook est un site de cuisine conçu pour rassembler les passionnés de gastronomie autour de recettes savoureuses et d'astuces culinaires. Que vous soyez un chef en herbe ou un expert, CrazyCook est là pour éveiller vos papilles !  
+CrazyCook est un site de cuisine conçu pour rassembler les passionnés de gastronomie autour de recettes savoureuses et d'astuces culinaires. Que vous soyez un chef en herbe ou un expert, CrazyCook e[...]
 
 ---
 
@@ -28,7 +28,7 @@ CrazyCook est un site de cuisine conçu pour rassembler les passionnés de gastr
 ### 🖥️ Installation locale  
 1. Clonez le projet :  
    ```bash  
-   git clone https://github.com/votre-utilisateur/crazycook.git  
+   git clone https://github.com/Patrrikcode2/crazycook.git  
    cd crazycook  
    ```  
 2. Ouvrez `index.html` dans votre navigateur.  
@@ -76,7 +76,7 @@ CrazyCook est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plu
 ---
 
 ## 📬 Contact  
-- Email : crazycook@novacreationsbypat.com  
-- GitHub : [CrazyCook Repo](https://github.com/votre-utilisateur/crazycook)  
+- Email : lawsonkarl76@gmail.com  
+- GitHub : [CrazyCook Repo](https://github.com/Patrrikcode2/crazycook)  
 
 👩‍🍳 Bon appétit avec CrazyCook !  
