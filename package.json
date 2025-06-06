@@ -1,0 +1,20 @@
+{
+  "name": "crazycook-website",
+  "version": "1.0.0",
+  "description": "Website for CrazyCook recipes",
+  "scripts": {
+    "dev": "http-server -p 8080 -o --cors",
+    "test": "playwright test"
+  },
+  "keywords": [
+    "recipe",
+    "cooking",
+    "food"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "@playwright/test": "^1.40.1"
+  }
+}

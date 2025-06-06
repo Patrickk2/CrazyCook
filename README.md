@@ -80,3 +80,35 @@ CrazyCook est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plu
 - GitHub : [CrazyCook Repo](https://github.com/Patrrikcode2/crazycook)  
 
 👩‍🍳 Bon appétit avec CrazyCook !  
+
+## Local Development
+
+To run the website locally for development and testing, follow these steps:
+
+1.  **Prerequisites**: Ensure you have [Node.js](https://nodejs.org/) and npm installed.
+2.  **Install dependencies**: Open your terminal in the project root and run:
+    ```bash
+    npm install
+    ```
+3.  **Start the development server**: After installation, run:
+    ```bash
+    npm run dev
+    ```
+    This will start a local server (usually at `http://localhost:8080`) and automatically open the site in your default web browser. The `-o` flag opens the browser, and `--cors` enables CORS, which can be helpful for local development involving cross-origin requests (though likely not an immediate issue for this simple static site).
+
+## Running Tests
+
+To run the automated end-to-end tests locally:
+
+1.  **Install dependencies** (if not already done):
+    ```bash
+    npm install
+    ```
+2.  **Install Playwright browsers**:
+    ```bash
+    npx playwright install --with-deps
+    ```
+3.  **Run tests**:
+    ```bash
+    npm test
+    ```
