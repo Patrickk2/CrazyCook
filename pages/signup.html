@@ -6,17 +6,17 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscriver vous !</title>
+    <title>Inscrivez vous !</title>
     <link href="../assets/css/form.css" rel="stylesheet">
 </head>
 <body>
     <form>
         <fieldset>
             <label for="first-name">Entrer votre prénom : <input id="first-name" type="text" required></label>
-            <label for="last-name">Entrer votre nom : <input id="last-name" type="text"></label
-            <label for="email">Entrer votre email : <input id="email" type="email" required></labe>
-            <label for="psw-1">Entrer votre mot de passe : <input id="password" type="password" required pattern="[a-z0-9].{8,}"></label>
-            <label for="psw-2">Confirmer votre mot de passe</label>
+            <label for="last-name">Entrer votre nom : <input id="last-name" type="text"></label>
+            <label for="email">Entrer votre email : <input id="email" type="email" required></label>
+            <label for="password">Entrer votre mot de passe : <input id="password" type="password" required pattern="[a-z0-9].{8,}"></label>
+            <label for="password-confirm">Confirmer votre mot de passe : <input id="password-confirm" type="password" required></label>
         </fieldset>
 
         <fieldset>
@@ -27,13 +27,13 @@
 
         <fieldset>
             <label>Importer une photo de profile : <input type="file"></label>
-            <label for="age">Entrer votre age : <input type="number" min="13" max="120"></label>
+            <label for="age">Entrer votre age : <input id="age" type="number" min="13" max="120"></label>
             <label for="how-about-us">Comment avez vous entendu parler de nous ?</label>
-            <select name="" id="how-about-us">
+            <select name="how-about-us" id="how-about-us">
                 <option value="1">En naviguant sur le web</option>
                 <option value="2">Patrick m'en a parlé</option>
             </select>
-            <label for="">Ecriver une Bio : <textarea name="" id="" placeholder="J'aime la cuisine africaine."></textarea></label>
+            <label for="bio">Ecrire une Bio : <textarea name="bio" id="bio" placeholder="J'aime la cuisine africaine."></textarea></label>
         </fieldset>
 
         <input type="submit">
