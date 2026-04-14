@@ -6,37 +6,103 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscrivez vous !</title>
-    <link href="../assets/css/form.css" rel="stylesheet">
+    <meta name="description" content="Créez un compte CrazyCook - Rejoignez notre communauté">
+    <title>Inscription - CrazyCook</title>
+    <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/form.css">
 </head>
 <body>
-    <form>
-        <fieldset>
-            <label for="first-name">Entrer votre prénom : <input id="first-name" type="text" required></label>
-            <label for="last-name">Entrer votre nom : <input id="last-name" type="text"></label>
-            <label for="email">Entrer votre email : <input id="email" type="email" required></label>
-            <label for="password">Entrer votre mot de passe : <input id="password" type="password" required pattern="[a-z0-9].{8,}"></label>
-            <label for="password-confirm">Confirmer votre mot de passe : <input id="password-confirm" type="password" required></label>
-        </fieldset>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="../index.html" class="logo">
+                <img src="../assets/img/logo.svg" alt="CrazyCook">
+                <span>CrazyCook</span>
+            </a>
+        </div>
+        <nav class="main-nav" aria-label="Navigation principale">
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="recettes.html">Recettes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Connexion</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <fieldset>
-            <legend>Quelle type de compte vouler vous créer : </legend>
-            <label for="type-account-perso"><input type="radio" name="type-account" id="type-account-perso" checked> Personnel</label>
-            <label for="type-account-pro"><input type="radio" name="type-account" id="type-account-pro"> Professionnel</label>
-        </fieldset>
+    <main class="auth-page">
+        <section class="page-header">
+            <h1>Créer un compte</h1>
+            <p>Rejoignez notre communauté de passionnés de cuisine !</p>
+        </section>
 
-        <fieldset>
-            <label>Importer une photo de profile : <input type="file"></label>
-            <label for="age">Entrer votre age : <input id="age" type="number" min="13" max="120"></label>
-            <label for="how-about-us">Comment avez vous entendu parler de nous ?</label>
-            <select name="how-about-us" id="how-about-us">
-                <option value="1">En naviguant sur le web</option>
-                <option value="2">Patrick m'en a parlé</option>
-            </select>
-            <label for="bio">Ecrire une Bio : <textarea name="bio" id="bio" placeholder="J'aime la cuisine africaine."></textarea></label>
-        </fieldset>
+        <section class="auth-form-section">
+            <form class="form-box" action="#" method="post">
+                <fieldset>
+                    <legend>Informations personnelles</legend>
+                    <label for="first-name">Prénom</label>
+                    <input id="first-name" type="text" name="first-name" required>
 
-        <input type="submit">
-    </form>
+                    <label for="last-name">Nom</label>
+                    <input id="last-name" type="text" name="last-name">
+
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" required>
+
+                    <label for="password">Mot de passe</label>
+                    <input id="password" type="password" name="password" required minlength="8" pattern="[a-zA-Z0-9].{7,}">
+
+                    <label for="password-confirm">Confirmer le mot de passe</label>
+                    <input id="password-confirm" type="password" name="password-confirm" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Type de compte</legend>
+                    <div class="radio-group">
+                        <label for="type-account-perso">
+                            <input type="radio" name="type-account" id="type-account-perso" value="perso" checked> Personnel
+                        </label>
+                        <label for="type-account-pro">
+                            <input type="radio" name="type-account" id="type-account-pro" value="pro"> Professionnel
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informations supplémentaires</legend>
+                    <label for="avatar">Photo de profil</label>
+                    <input id="avatar" type="file" name="avatar" accept="image/*">
+
+                    <label for="age">Âge</label>
+                    <input id="age" type="number" name="age" min="13" max="120">
+
+                    <label for="how-about-us">Comment avez-vous connu CrazyCook ?</label>
+                    <select id="how-about-us" name="how-about-us">
+                        <option value="">Choisir...</option>
+                        <option value="web">En naviguant sur le web</option>
+                        <option value="friend">Un ami m'en a parlé</option>
+                        <option value="social">Réseaux sociaux</option>
+                        <option value="other">Autre</option>
+                    </select>
+
+                    <label for="bio">Bio</label>
+                    <textarea id="bio" name="bio" rows="4" placeholder="Parlez-nous de vous et de vos passions culinaires..."></textarea>
+                </fieldset>
+
+                <button type="submit">Créer mon compte</button>
+                <p>Déjà un compte ? <a href="login.html">Se connecter</a></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2024 CrazyCook. Tous droits réservés.</p>
+        <div class="socials">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">YouTube</a>
+        </div>
+    </footer>
+    <script src="../assets/js/script.js" defer></script>
 </body>
 </html>
