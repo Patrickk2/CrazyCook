@@ -2,11 +2,8 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Créez un compte CrazyCook - Rejoignez notre communauté">
+    <meta name="description" content="Créez un compte CrazyCook">
     <title>Inscription - CrazyCook</title>
     <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -20,7 +17,7 @@
                 <span>CrazyCook</span>
             </a>
         </div>
-        <nav class="main-nav" aria-label="Navigation principale">
+        <nav class="main-nav">
             <ul>
                 <li><a href="../index.html">Accueil</a></li>
                 <li><a href="recettes.html">Recettes</a></li>
@@ -38,56 +35,20 @@
 
         <section class="auth-form-section">
             <form class="form-box" action="#" method="post">
-                <fieldset>
-                    <legend>Informations personnelles</legend>
-                    <label for="first-name">Prénom</label>
-                    <input id="first-name" type="text" name="first-name" required>
+                <label for="first-name">Prénom</label>
+                <input type="text" id="first-name" name="first-name" required>
 
-                    <label for="last-name">Nom</label>
-                    <input id="last-name" type="text" name="last-name">
+                <label for="last-name">Nom</label>
+                <input type="text" id="last-name" name="last-name">
 
-                    <label for="email">Email</label>
-                    <input id="email" type="email" name="email" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
 
-                    <label for="password">Mot de passe</label>
-                    <input id="password" type="password" name="password" required minlength="8" pattern="[a-zA-Z0-9].{7,}">
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password" required>
 
-                    <label for="password-confirm">Confirmer le mot de passe</label>
-                    <input id="password-confirm" type="password" name="password-confirm" required>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Type de compte</legend>
-                    <div class="radio-group">
-                        <label for="type-account-perso">
-                            <input type="radio" name="type-account" id="type-account-perso" value="perso" checked> Personnel
-                        </label>
-                        <label for="type-account-pro">
-                            <input type="radio" name="type-account" id="type-account-pro" value="pro"> Professionnel
-                        </label>
-                    </div>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Informations supplémentaires</legend>
-                    <label for="avatar">Photo de profil</label>
-                    <input id="avatar" type="file" name="avatar" accept="image/*">
-
-                    <label for="age">Âge</label>
-                    <input id="age" type="number" name="age" min="13" max="120">
-
-                    <label for="how-about-us">Comment avez-vous connu CrazyCook ?</label>
-                    <select id="how-about-us" name="how-about-us">
-                        <option value="">Choisir...</option>
-                        <option value="web">En naviguant sur le web</option>
-                        <option value="friend">Un ami m'en a parlé</option>
-                        <option value="social">Réseaux sociaux</option>
-                        <option value="other">Autre</option>
-                    </select>
-
-                    <label for="bio">Bio</label>
-                    <textarea id="bio" name="bio" rows="4" placeholder="Parlez-nous de vous et de vos passions culinaires..."></textarea>
-                </fieldset>
+                <label for="password-confirm">Confirmer le mot de passe</label>
+                <input type="password" id="password-confirm" name="password-confirm" required>
 
                 <button type="submit">Créer mon compte</button>
                 <p>Déjà un compte ? <a href="login.html">Se connecter</a></p>
@@ -103,6 +64,5 @@
             <a href="#">YouTube</a>
         </div>
     </footer>
-    <script src="../assets/js/script.js" defer></script>
 </body>
 </html>

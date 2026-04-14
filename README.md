@@ -1,114 +1,136 @@
-# 🍳 CrazyCook  
+# 🍳 CrazyCook
 
-CrazyCook est un site de cuisine conçu pour rassembler les passionnés de gastronomie autour de recettes savoureuses et d'astuces culinaires. Que vous soyez un chef en herbe ou un expert, CrazyCook e[...]
-
----
-
-## 🛠️ Fonctionnalités  
-- 📖 Catalogue de recettes : Découvrez des recettes variées adaptées à tous les goûts et niveaux.  
-- 🔍 Recherche rapide : Trouvez facilement des recettes grâce à une barre de recherche intuitive.  
-- 📰 Blog culinaire : Lisez des articles inspirants et découvrez des astuces pratiques.  
-- 📩 Newsletter : Recevez des recettes exclusives et des astuces directement dans votre boîte mail.  
+> **Note**: This project was made with **vibe coding** ✨  
+> No frameworks, no build tools, just HTML, CSS, and pure creativity.
 
 ---
 
-## 🌟 Aperçu du projet  
-![Preview du site](https://github.com/user-attachments/assets/50bf209d-629f-49cc-9a2a-53d1c2b999b7) 
+## Description
 
-*Une interface moderne et conviviale pour naviguer facilement entre les sections.*  
+CrazyCook est un site de recettes de cuisine fait main avec HTML et CSS. L'objectif est simple : partager des recettes délicieuses avec une interface propre et accessible à tous.
 
----
-
-## 🚀 Mise en route  
-
-### 🔧 Pré-requis  
-- Navigateur : Un navigateur moderne (Google Chrome, Firefox, Edge).  
-- Optionnel : Un éditeur de texte (Visual Studio Code, Sublime Text).  
-
-### 🖥️ Installation locale  
-1. Clonez le projet :  
-   ```bash  
-   git clone https://github.com/Patrrikcode2/crazycook.git  
-   cd crazycook  
-   ```  
-2. Ouvrez `index.html` dans votre navigateur.  
-
-### 🌐 Hébergement en ligne  
-CrazyCook est conçu pour être déployé facilement sur des services comme :  
-- [Netlify](https://www.netlify.com/)  
-- [Vercel](https://vercel.com/)  
-- [GitHub Pages](https://pages.github.com/)  
+Ce projet a été développé principalement pour pratiquer et améliorer mes compétences en développement web front-end. Chaque page a étécodée à la main avec attention.
 
 ---
 
-## 📚 Documentation  
-### 📁 Structure des fichiers  
-```  
-crazycook/  
-├── index.html          # Page principale  
-├── styles/             # Dossier contenant les fichiers CSS  
-├── scripts/            # (Futur) Dossier pour les fichiers JavaScript  
-├── assets/             # Images et autres médias  
-└── README.md           # Documentation du projet  
-```  
+## 🛠️ Fonctionnalités
 
-### 🎨 Technologies utilisées  
-- HTML5  
-- CSS3  
-- (Futur) JavaScript ES6+
+- **Page d'accueil** : Présentation du site avec hero, recettes en vedette, et newsletter
+- **Recettes** : Catalogue de recettes triées par catégorie (Entrées, Plats, Desserts)
+- **Inscription / Connexion** : Pages de formulaire pour créer un compte ou se connecter
+- **Contact** : Formulaire de contact avec informations de l'équipe
+- **Design responsive** : S'adapte aux mobiles, tablettes et ordinateurs
+- **Newsletter** : Section pour s'abonner à la communauté
 
 ---
 
-## 💡 Contribuer  
-Les contributions sont les bienvenues ! Pour contribuer :  
-1. Forkez le projet.  
-2. Créez une branche pour votre fonctionnalité :  
-   ```bash  
-   git checkout -b feature/nouvelle-fonctionnalite  
-   ```  
-3. Faites vos modifications et ouvrez une Pull Request.  
+## 📁 Structure du projet
+
+```
+CrazyCook/
+├── index.html              # Page d'accueil
+├── pages/
+│   ├── recettes.html       # Catalogue de recettes
+│   ├── contact.html        # Page de contact
+│   ├── signup.html         # Page d'inscription
+│   └── login.html          # Page de connexion
+├── assets/
+│   ├── css/
+│   │   └── style.css       # Tous les styles (un seul fichier!)
+│   ├── img/
+│   │   └── logo.svg       # Logo du site
+│   └── data/
+│       └── recipes.json    # Données des recettes (non utilisé en static)
+├── experimental/
+│   └── js/
+│       └── script.js       # Version JavaScript (pour expérimenter)
+├── package.json            # Pour le serveur local
+└── README.md              # Ce fichier
+```
 
 ---
 
-## 🏷️ Licence  
-CrazyCook est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus d’informations.  
+## 🚀 Comment l'utiliser
+
+### Prérequis
+- Un navigateur web (Chrome, Firefox, Safari, Edge)
+- Optionnel : Node.js pour le serveur local
+
+### Installation locale
+
+1. Clonez le projet :
+```bash
+git clone https://github.com/Patrickk2/CrazyCook.git
+cd CrazyCook
+```
+
+2. Ouvrez `index.html` directement dans votre navigateur
+
+### Avec le serveur local (optionnel)
+
+```bash
+npm install
+npm run dev
+```
+
+Cela démarrera un serveur local à `http://localhost:8080`
 
 ---
 
-## 📬 Contact  
-- Email : lawsonkarl76@gmail.com  
-- GitHub : [CrazyCook Repo](https://github.com/Patrrikcode2/crazycook)  
+## 🌐 Déploiement
 
-👩‍🍳 Bon appétit avec CrazyCook !  
+Le site peut être déployé facilement sur :
+- [GitHub Pages](https://pages.github.com/)
+- [Netlify](https://www.netlify.com/)
+- [Vercel](https://vercel.com/)
 
-## Local Development
+Il suffit de mettre en ligne le dossier `CrazyCook` et le site sera fonctionnel!
 
-To run the website locally for development and testing, follow these steps:
+---
 
-1.  **Prerequisites**: Ensure you have [Node.js](https://nodejs.org/) and npm installed.
-2.  **Install dependencies**: Open your terminal in the project root and run:
-    ```bash
-    npm install
-    ```
-3.  **Start the development server**: After installation, run:
-    ```bash
-    npm run dev
-    ```
-    This will start a local server (usually at `http://localhost:8080`) and automatically open the site in your default web browser. The `-o` flag opens the browser, and `--cors` enables CORS, which can be helpful for local development involving cross-origin requests (though likely not an immediate issue for this simple static site).
+## 🎨 Technologies utilisées
 
-## Running Tests
+| Technologie | Usage |
+|-------------|-------|
+| HTML5 | Structure des pages |
+| CSS3 | Styles et design responsive |
+| SVG | Logo vectoriel |
 
-To run the automated end-to-end tests locally:
+**Note** : Le JavaScript est optionnel! La version principale (branche `main`) n'utilise que HTML et CSS. La version avec JavaScript est disponible dans le dossier `experimental/`.
 
-1.  **Install dependencies** (if not already done):
-    ```bash
-    npm install
-    ```
-2.  **Install Playwright browsers**:
-    ```bash
-    npx playwright install --with-deps
-    ```
-3.  **Run tests**:
-    ```bash
-    npm test
-    ```
+---
+
+## 🔧 Branches
+
+- **`main`** : Version HTML/CSS uniquement (celle que vous utilisez)
+- **`dev`** : Version avec JavaScript et fonctionnalités avancées (pour expérimenter)
+
+---
+
+## 📝 Notes de développement
+
+Ce projet a été réalisé en **vibe coding** :
+- Pas de framework CSS
+- Pas de préprocesseurs (Sass, Less)
+- Pas de bundlers (Webpack, Vite)
+- Juste du HTML et CSS pur, codé à la main
+
+L'objectif était de comprendre les fondamentaux du développement web front-end en créant quelque chose de concret et de fonctionnel.
+
+---
+
+## 🏷️ Licence
+
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
+
+---
+
+## 📬 Contact
+
+- **Email** : lawsonkarl76@gmail.com
+- **GitHub** : [Patrickk2](https://github.com/Patrickk2)
+- **Projet** : [CrazyCook Repo](https://github.com/Patrickk2/CrazyCook)
+
+---
+
+👨‍🍳 Bon appétit avec CrazyCook!
